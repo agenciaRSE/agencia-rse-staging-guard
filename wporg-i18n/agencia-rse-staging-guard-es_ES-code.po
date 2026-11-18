@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Agencia RSE Staging Guard\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Agencia RSE Staging Guard"
+msgstr "Agencia RSE Staging Guard"
+
+msgid "For staging and development copies of a site. Keeps the whole site out of search engines and stops the real analytics and ad tags (GTM, GA4, Google Ads, Meta…), WooCommerce webhooks and pings. Optionally blocks or redirects outgoing email. It never changes saved settings and does nothing on a domain that looks like production."
+msgstr "Para copias de staging y desarrollo. Saca toda la web de los buscadores y corta la medición y las etiquetas de publicidad reales (GTM, GA4, Google Ads, Meta…), los webhooks de WooCommerce y los pings. Si quieres, bloquea o redirige el correo saliente. No cambia ningún ajuste guardado y no hace nada en un dominio que parece de producción."
+
+msgid "AGENCIA RSE"
+msgstr "AGENCIA RSE"
+
+msgid "https://agenciarse.com/"
+msgstr "https://agenciarse.com/"
+
+msgid "https://github.com/agenciaRSE/agencia-rse-staging-guard"
+msgstr "https://github.com/agenciaRSE/agencia-rse-staging-guard"
+
+msgid "\"Discourage search engines\" is checked in Settings > Reading"
+msgstr "está marcado «Disuadir a los motores de búsqueda» en Ajustes > Lectura"
+
+msgid "%s looks like a live site. If it is, deactivate the plugin. If it is a staging copy, choose \"Always on\" in the settings."
+msgstr "%s parece una web en producción. Si lo es, desactiva el plugin. Si es un staging, elige «Siempre activo» en los ajustes."
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Active on this site."
+msgstr "Activo en esta web."
+
+msgid "Acts when the domain looks like staging (staging., dev., test., .local, localhost, host staging domains…), when WP_ENVIRONMENT_TYPE is not production, or when \"Discourage search engines\" is checked."
+msgstr "Actúa si el dominio parece de staging (staging., dev., test., .local, localhost, dominios de staging de los hostings…), si WP_ENVIRONMENT_TYPE no es production o si está marcado «Disuadir a los motores de búsqueda»."
+
+msgid "Always on for %s"
+msgstr "Siempre activo en %s"
+
+msgid "Automatic (recommended)"
+msgstr "Automático (recomendado)"
+
+msgid "Block analytics and ad tags"
+msgstr "Bloquear la medición y las etiquetas de publicidad"
+
+msgid "Blocked"
+msgstr "Bloqueado"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Email"
+msgstr "Correo"
+
+msgid "Empty: messages are dropped. With an address: they all go there, with the original recipient in the subject and no Cc or Bcc."
+msgstr "Vacío: los mensajes se descartan. Con una dirección: van todos allí, con el destinatario original en el asunto y sin Cc ni Cco."
+
+msgid "GTM, GA4, Google Ads, Meta, Clarity, Hotjar, LinkedIn, TikTok and Bing: PixelYourSite, GTM4WP, Site Kit, MonsterInsights, Elementor custom code and any of those tags left in the HTML."
+msgstr "GTM, GA4, Google Ads, Meta, Clarity, Hotjar, LinkedIn, TikTok y Bing: PixelYourSite, GTM4WP, Site Kit, MonsterInsights, Código personalizado de Elementor y cualquiera de esas etiquetas que quede en el HTML."
+
+msgid "Hide from search engines"
+msgstr "Ocultar a los buscadores"
+
+msgid "Last stopped emails"
+msgstr "Últimos correos detenidos"
+
+msgid "New posts do not notify update services or the sites they link to."
+msgstr "Las entradas nuevas no avisan a los servicios de actualización ni a las webs que enlazan."
+
+msgid "Not active on this site."
+msgstr "No está activo en esta web."
+
+msgid "Off"
+msgstr "Desactivado"
+
+msgid "Off by default, because many staging copies need to test forms and orders. Turn it on so customers never get emails from this copy."
+msgstr "Desactivado por defecto, porque en muchos stagings hay que probar formularios y pedidos. Actívalo para que ningún cliente reciba correos de esta copia."
+
+msgid "Only on this domain: if the database is copied to another domain, it goes back to automatic."
+msgstr "Solo en este dominio: si la base de datos se copia a otro dominio, vuelve a automático."
+
+msgid "Pause WooCommerce webhooks"
+msgstr "Pausar los webhooks de WooCommerce"
+
+msgid "Reason: %s."
+msgstr "Motivo: %s."
+
+msgid "Redirected"
+msgstr "Redirigido"
+
+msgid "STAGING"
+msgstr "STAGING"
+
+msgid "STAGING label in the toolbar"
+msgstr "Etiqueta STAGING en la barra de herramientas"
+
+msgid "Saved settings of other plugins are never changed: if this database is copied back to the live site, its analytics, indexing and email keep working as before."
+msgstr "Nunca cambia los ajustes guardados de otros plugins: si esta base de datos vuelve a la web en producción, la medición, la indexación y el correo siguen como estaban."
+
+msgid "Send everything to this address instead (optional)"
+msgstr "Enviarlo todo a esta dirección (opcional)"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "So nobody confuses this copy with the live site."
+msgstr "Para que nadie confunda esta copia con la web en producción."
+
+msgid "Staging Guard"
+msgstr "Staging Guard"
+
+msgid "Staging Guard is active but doing nothing:"
+msgstr "Staging Guard está activado pero no hace nada:"
+
+msgid "Staging Guard settings"
+msgstr "Ajustes de Staging Guard"
+
+msgid "Staging Guard is active: this copy is treated as staging."
+msgstr "Staging Guard está activo: esta copia se trata como staging."
+
+msgid "Stop outgoing email"
+msgstr "Detener el correo saliente"
+
+msgid "Stop pings and pingbacks"
+msgstr "Detener pings y pingbacks"
+
+msgid "Subject"
+msgstr "Asunto"
+
+msgid "Test orders are not sent to your ERP, CRM, shipping or invoicing service."
+msgstr "Los pedidos de prueba no llegan a tu ERP, CRM, servicio de envíos o de facturación."
+
+msgid "The <code>AGRSE_STAGING</code> constant (true or false) in wp-config.php overrides this choice."
+msgstr "La constante <code>AGRSE_STAGING</code> (true o false) en wp-config.php manda sobre esta opción."
+
+msgid "To"
+msgstr "Para"
+
+msgid "WP_ENVIRONMENT_TYPE is not \"production\""
+msgstr "WP_ENVIRONMENT_TYPE no es «production»"
+
+msgid "What to turn off"
+msgstr "Qué desactivar"
+
+msgid "When to act"
+msgstr "Cuándo actuar"
+
+msgid "noindex on every page (WordPress, Yoast, Rank Math, SEOPress), X-Robots-Tag header and robots.txt that disallows everything."
+msgstr "noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress), cabecera X-Robots-Tag y robots.txt que lo bloquea todo."
+
+msgid "the AGRSE_STAGING constant in wp-config.php"
+msgstr "la constante AGRSE_STAGING en wp-config.php"
+
+msgid "the domain looks like a live site"
+msgstr "el dominio parece de una web en producción"
+
+msgid "the domain looks like a staging or development copy"
+msgstr "el dominio parece de staging o desarrollo"
+
+msgid "the mode is set to \"Always on\" for this domain"
+msgstr "el modo está en «Siempre activo» para este dominio"
+
+msgid "the mode is set to \"Off\""
+msgstr "el modo está en «Desactivado»"
