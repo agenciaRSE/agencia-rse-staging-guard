@@ -2,7 +2,7 @@
 
 Plugin de WordPress para copias de staging y desarrollo. Por defecto:
 
-- **Saca la web de los buscadores**: noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress), cabecera `X-Robots-Tag: noindex, nofollow` en todas las respuestas de PHP y robots.txt que lo bloquea todo.
+- **Saca la web de los buscadores**: noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress), cabecera `X-Robots-Tag: noindex, nofollow` en todas las respuestas de PHP. El robots.txt se deja abierto a propósito para que Google vea el noindex.
 - **Bloquea la medición real**: PixelYourSite, GTM4WP, Site Kit, MonsterInsights, Código personalizado de Elementor Pro y, como red, cualquier `<script>`/`<noscript>` de GTM, GA, Google Ads, Meta, Clarity, Hotjar, LinkedIn, TikTok o Bing en el HTML final.
 - **Pausa los webhooks de WooCommerce** y **los pings y pingbacks**.
 - **Etiqueta STAGING** en rojo en la barra de administración.

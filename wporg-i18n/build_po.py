@@ -70,8 +70,8 @@ T = {
     'WP_ENVIRONMENT_TYPE is not "production"': 'WP_ENVIRONMENT_TYPE no es «production»',
     'What to turn off': 'Qué desactivar',
     'When to act': 'Cuándo actuar',
-    'noindex on every page (WordPress, Yoast, Rank Math, SEOPress), X-Robots-Tag header and robots.txt that disallows everything.':
-        'noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress), cabecera X-Robots-Tag y robots.txt que lo bloquea todo.',
+    'noindex on every page (WordPress, Yoast, Rank Math, SEOPress) and an X-Robots-Tag header on every response.':
+        'noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress) y cabecera X-Robots-Tag en todas las respuestas.',
     'the AGRSE_STAGING constant in wp-config.php': 'la constante AGRSE_STAGING en wp-config.php',
     'the domain looks like a live site': 'el dominio parece de una web en producción',
     'the domain looks like a staging or development copy': 'el dominio parece de staging o desarrollo',

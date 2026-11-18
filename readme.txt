@@ -22,8 +22,8 @@ Install this plugin on the staging copy and, by default, it:
 
 * **Hides the site from search engines**: noindex on every page (WordPress core, Yoast
   SEO, Rank Math and SEOPress), an `X-Robots-Tag: noindex, nofollow` header on every PHP
-  response (feeds, sitemaps, REST and AJAX included) and a robots.txt that disallows
-  everything.
+  response (feeds, sitemaps, REST and AJAX included). robots.txt is left open on
+  purpose, so search engines can see the noindex.
 * **Blocks analytics and ad tags**: PixelYourSite, GTM4WP, Site Kit, MonsterInsights,
   Elementor Pro custom code with tracking tags and, as a safety net, any `<script>` or
   `<noscript>` of Google Tag Manager, Google Analytics, Google Ads, Meta, Microsoft

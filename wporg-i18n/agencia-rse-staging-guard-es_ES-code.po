@@ -148,8 +148,8 @@ msgstr "Qué desactivar"
 msgid "When to act"
 msgstr "Cuándo actuar"
 
-msgid "noindex on every page (WordPress, Yoast, Rank Math, SEOPress), X-Robots-Tag header and robots.txt that disallows everything."
-msgstr "noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress), cabecera X-Robots-Tag y robots.txt que lo bloquea todo."
+msgid "noindex on every page (WordPress, Yoast, Rank Math, SEOPress) and an X-Robots-Tag header on every response."
+msgstr "noindex en todas las páginas (WordPress, Yoast, Rank Math, SEOPress) y cabecera X-Robots-Tag en todas las respuestas."
 
 msgid "the AGRSE_STAGING constant in wp-config.php"
 msgstr "la constante AGRSE_STAGING en wp-config.php"

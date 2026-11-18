@@ -195,7 +195,7 @@ final class AGRSE_Staging_Guard {
 	 * ------------------------------------------------------------------- */
 
 	private function noindex_hooks() {
-		// blog_public = 0 in memory only: WordPress and SEO plugins print noindex, robots.txt disallows.
+		// blog_public = 0 in memory only: WordPress and SEO plugins print noindex.
 		add_filter(
 			'pre_option_blog_public',
 			function ( $pre ) {
@@ -555,7 +555,7 @@ final class AGRSE_Staging_Guard {
 		list( $active, $reason ) = $this->state();
 		$name                    = self::OPTION;
 		$features                = array(
-			'noindex'  => array( __( 'Hide from search engines', 'agencia-rse-staging-guard' ), __( 'noindex on every page (WordPress, Yoast, Rank Math, SEOPress), X-Robots-Tag header and robots.txt that disallows everything.', 'agencia-rse-staging-guard' ) ),
+			'noindex'  => array( __( 'Hide from search engines', 'agencia-rse-staging-guard' ), __( 'noindex on every page (WordPress, Yoast, Rank Math, SEOPress) and an X-Robots-Tag header on every response.', 'agencia-rse-staging-guard' ) ),
 			'tracking' => array( __( 'Block analytics and ad tags', 'agencia-rse-staging-guard' ), __( 'GTM, GA4, Google Ads, Meta, Clarity, Hotjar, LinkedIn, TikTok and Bing: PixelYourSite, GTM4WP, Site Kit, MonsterInsights, Elementor custom code and any of those tags left in the HTML.', 'agencia-rse-staging-guard' ) ),
 			'webhooks' => array( __( 'Pause WooCommerce webhooks', 'agencia-rse-staging-guard' ), __( 'Test orders are not sent to your ERP, CRM, shipping or invoicing service.', 'agencia-rse-staging-guard' ) ),
 			'pings'    => array( __( 'Stop pings and pingbacks', 'agencia-rse-staging-guard' ), __( 'New posts do not notify update services or the sites they link to.', 'agencia-rse-staging-guard' ) ),
